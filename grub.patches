@@ -248,3 +248,4 @@ Patch0247: 0247-linuxefi-fail-kernel-validation-without-shim-protoco.patch
 Patch0248: 0248-linux-Fix-integer-overflows-in-initrd-size-handling.patch
 Patch0249: 0249-Fix-some-error-returning-weirdness-in-grub_menu_exec.patch
 Patch0250: 0250-tftp-roll-over-block-counter-to-prevent-timeouts-wit.patch
+Patch0251: 0251-btrfs-Add-support-for-new-RAID1C34-profiles.patch

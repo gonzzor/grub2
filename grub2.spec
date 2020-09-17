@@ -9,7 +9,7 @@
 Name:		grub2
 Epoch:		1
 Version:	2.04
-Release:	23%{?dist}
+Release:	23.1%{?dist}
 Summary:	Bootloader with support for Linux, Multiboot and more
 License:	GPLv3+
 URL:		http://www.gnu.org/software/grub/
@@ -509,6 +509,10 @@ rm -r /boot/grub2.tmp/ || :
 %endif
 
 %changelog
+* Thu Sep 17 2020 Jonas Jonsson <jonas@websystem.se> - 2.04-23.1
+- Test BTRFS raid1c3 and raid1c4 support.
+  Resolves: rhbz#1876269
+
 * Tue Sep 15 2020 Javier Martinez Canillas <javierm@redhat.com> - 2.04-23
 - Roll over TFTP block counter to prevent timeouts with data packets
   Resolves: rhbz#1869335
